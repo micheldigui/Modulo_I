@@ -3,15 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome, sobrenome
-		escreva("Olá! \n Por favor digite o seu primeiro nome: ")
-		leia(nome)
-		escreva("Agora digite o seu sobrenome: ")
-		leia(sobrenome)
 
-		escreva("Olá " + nome + " " + sobrenome + ".\nSeja bem vindo(a)!")
+	real pi = 3.14
+	real raio, area 
+		escreva("Olá!\nEsse programa calcula a área de um círculo.\n")
+		escreva("Digite o raio do círculo para que seja efetuado o cálculo da área: ")
+		leia(raio)
 
-		
+		area = pi * raio * raio
+
+		escreva("Um raio de círculo" + raio + " possui a área total de: " + area)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 271; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

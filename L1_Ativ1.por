@@ -3,25 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-			inteiro idade
-			escreva("Por favor, digite a sua idade: ")
-			leia (idade)
-			se (idade < 18)
-			{
-				escreva("Usuário menor de idade.")
-			}senao
-			{
-				escreva("Usuário maior de idade.")
-			}
-			
-		}
+		cadeia nome, sobrenome
+		escreva("Olá! \n Por favor digite o seu primeiro nome: ")
+		leia(nome)
+		escreva("Agora digite o seu sobrenome: ")
+		leia(sobrenome)
+
+		escreva("Olá " + nome + " " + sobrenome + ".\nSeja bem vindo(a)!")
+
+		
 	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 176; 
+ * @POSICAO-CURSOR = 271; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
